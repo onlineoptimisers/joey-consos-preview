@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Consos Properties | Real Estate Investment & Development</title>
+  <meta name="description" content="Consos Properties is a real estate investment and development company with over 20 years of industry experience in California. Rehabs, entitlements, new construction, and portfolio management." />
+  <link rel="icon" href="https://assets.squarespace.com/universal/default-favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Consos Properties",
+    "description": "Real estate investment and development company with over 20 years of industry experience in California. Rehabs, entitlements, new construction, and portfolio management.",
+    "url": "https://www.consosproperties.com/",
+    "telephone": "",
+    "email": "joey@consosproperties.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "SF Bay Area",
+      "addressRegion": "CA"
+    },
+    "image": "https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/1715274273578-1P3899L53CEKHSLRIWP6/MLS+1666+Barnett+Cir+Pleasant+Hill004.jpg"
+  }
+  </script>
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --primary: #2c3e50;
+      --primary-dark: #1a252f;
+      --primary-light: #3d566e;
+      --accent: #c9a96e;
+      --bg: #ffffff;
+      --bg-alt: #f7f8fa;
+      --bg-dark: #0f1923;
+      --text: #1a1d26;
+      --text-body: #4a5568;
+      --text-light: #718096;
+      --text-white: #ffffff;
+      --border: rgba(0,0,0,0.08);
+      --shadow: 0 4px 24px rgba(0,0,0,0.08);
+      --shadow-lg: 0 12px 48px rgba(0,0,0,0.12);
+      --radius: 8px;
+      --radius-lg: 16px;
+    }
+
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; color: var(--text-body); background: var(--bg); line-height: 1.7; -webkit-font-smoothing: antialiased; }
+    h1, h2, h3, h4 { font-family: 'Oswald', sans-serif; font-weight: 600; line-height: 1.15; color: var(--text); text-transform: uppercase; letter-spacing: 0.02em; }
+    h1 { font-size: clamp(2.4rem, 5vw, 3.8rem); }
+    h2 { font-size: clamp(1.8rem, 3.5vw, 2.6rem); }
+    h3 { font-size: clamp(1.1rem, 2vw, 1.4rem); }
+    img { max-width: 100%; height: auto; display: block; }
+    a { color: inherit; text-decoration: none; }
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+
+    .header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(255,255,255,0.95); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 24px; transition: box-shadow 0.3s; }
+    .header.scrolled { box-shadow: var(--shadow); }
+    .header-inner { max-width: 1200px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; height: 72px; }
+    .logo-text { font-family: 'Oswald', sans-serif; font-size: 22px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text); }
+    .header-right { display: flex; align-items: center; gap: 32px; }
+    .nav { display: flex; gap: 28px; list-style: none; }
+    .nav a { font-size: 14px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text); transition: color 0.2s; }
+    .nav a:hover { color: var(--primary); }
+    .header-cta { display: inline-flex; align-items: center; gap: 8px; background: var(--primary); color: var(--text-white); padding: 10px 24px; border-radius: var(--radius); font-size: 14px; font-weight: 600; transition: background 0.2s; }
+    .header-cta:hover { background: var(--primary-dark); }
+
+    .hero { position: relative; min-height: 92vh; display: flex; align-items: center; overflow: hidden; margin-top: 72px; }
+    .hero-bg { position: absolute; inset: 0; background-image: url('https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/1715274273578-1P3899L53CEKHSLRIWP6/MLS+1666+Barnett+Cir+Pleasant+Hill004.jpg'); background-size: cover; background-position: center; filter: brightness(0.35); }
+    .hero-content { position: relative; z-index: 2; max-width: 720px; padding: 80px 24px; margin: 0 auto 0 80px; }
+    .hero-eyebrow { display: inline-block; font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--accent); background: rgba(255,255,255,0.1); padding: 6px 16px; border-radius: 4px; margin-bottom: 20px; }
+    .hero h1 { color: var(--text-white); margin-bottom: 20px; text-shadow: 0 2px 20px rgba(0,0,0,0.3); }
+    .hero-sub { font-size: 18px; color: rgba(255,255,255,0.85); line-height: 1.7; margin-bottom: 36px; max-width: 560px; }
+    .hero-btns { display: flex; gap: 16px; flex-wrap: wrap; }
+    .btn { display: inline-flex; align-items: center; gap: 8px; padding: 16px 36px; font-family: 'Inter', sans-serif; font-size: 15px; font-weight: 700; border-radius: var(--radius); border: none; cursor: pointer; transition: all 0.25s; text-transform: uppercase; letter-spacing: 0.04em; }
+    .btn-primary { background: var(--primary); color: var(--text-white); }
+    .btn-primary:hover { background: var(--primary-dark); transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+    .btn-outline { background: transparent; color: var(--text-white); border: 2px solid rgba(255,255,255,0.4); }
+    .btn-outline:hover { border-color: var(--text-white); background: rgba(255,255,255,0.1); }
+
+    .trust-bar { background: var(--primary); padding: 28px 0; }
+    .trust-bar-inner { display: flex; justify-content: center; gap: 48px; flex-wrap: wrap; }
+    .trust-item { display: flex; align-items: center; gap: 12px; color: var(--text-white); }
+    .trust-icon { width: 40px; height: 40px; border-radius: 50%; background: rgba(255,255,255,0.15); display: flex; align-items: center; justify-content: center; }
+    .trust-icon svg { width: 20px; height: 20px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+    .trust-text { font-size: 14px; font-weight: 600; letter-spacing: 0.02em; }
+
+    .section { padding: 96px 0; }
+    .section-alt { background: var(--bg-alt); }
+    .section-header { text-align: center; max-width: 640px; margin: 0 auto 56px; }
+    .section-eyebrow { font-family: 'Inter', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 0.2em; text-transform: uppercase; color: var(--primary); margin-bottom: 12px; }
+    .section-header p { margin-top: 16px; font-size: 16px; color: var(--text-light); }
+
+    .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; }
+    .service-card { background: var(--bg); border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); transition: transform 0.3s, box-shadow 0.3s; }
+    .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); }
+    .service-card-img { height: 220px; background-size: cover; background-position: center; position: relative; }
+    .service-card-img::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 60px; background: linear-gradient(transparent, rgba(0,0,0,0.3)); }
+    .service-card-body { padding: 28px; }
+    .service-card-body h3 { margin-bottom: 12px; color: var(--primary); }
+    .service-card-body p { font-size: 15px; line-height: 1.7; }
+
+    .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+    .about-image { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow-lg); }
+    .about-image img { width: 100%; height: 400px; object-fit: cover; }
+    .about-content .section-eyebrow { text-align: left; }
+    .about-content h2 { text-align: left; }
+    .about-content p { margin-top: 20px; font-size: 16px; }
+    .about-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 36px; }
+    .stat { text-align: center; padding: 20px; background: var(--bg-alt); border-radius: var(--radius); }
+    .stat-number { font-family: 'Oswald', sans-serif; font-size: 2.4rem; font-weight: 700; color: var(--primary); line-height: 1; }
+    .stat-label { font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-light); margin-top: 6px; }
+
+    .gallery-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+    .gallery-item { border-radius: var(--radius); overflow: hidden; aspect-ratio: 4/3; position: relative; }
+    .gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.4s; }
+    .gallery-item:hover img { transform: scale(1.05); }
+    .gallery-item:first-child { grid-column: span 2; grid-row: span 2; aspect-ratio: auto; }
+
+    .cta-section { background: var(--bg-dark); padding: 96px 0; text-align: center; position: relative; overflow: hidden; }
+    .cta-section::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle at center, var(--primary), transparent 60%); opacity: 0.08; }
+    .cta-content { position: relative; z-index: 1; max-width: 640px; margin: 0 auto; }
+    .cta-content h2 { color: var(--text-white); margin-bottom: 16px; }
+    .cta-content p { color: rgba(255,255,255,0.7); font-size: 18px; margin-bottom: 36px; }
+    .cta-email { display: inline-flex; align-items: center; gap: 12px; font-family: 'Oswald', sans-serif; font-size: 1.6rem; font-weight: 600; color: var(--text-white); margin-bottom: 28px; }
+    .cta-email svg { width: 28px; height: 28px; fill: none; stroke: var(--accent); stroke-width: 2; }
+
+    .footer { background: #0a0f14; padding: 48px 0 24px; color: rgba(255,255,255,0.5); }
+    .footer-inner { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 24px; }
+    .footer-logo-text { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: rgba(255,255,255,0.7); }
+    .footer-links { display: flex; gap: 24px; list-style: none; }
+    .footer-links a { font-size: 13px; transition: color 0.2s; }
+    .footer-links a:hover { color: rgba(255,255,255,0.9); }
+    .footer-bottom { margin-top: 32px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.08); text-align: center; font-size: 12px; }
+
+    @media (max-width: 768px) {
+      .hero-content { margin: 0 auto; padding: 60px 24px; text-align: center; }
+      .hero-btns { justify-content: center; }
+      .hero-sub { margin-left: auto; margin-right: auto; }
+      .about-grid { grid-template-columns: 1fr; gap: 36px; }
+      .about-content .section-eyebrow, .about-content h2 { text-align: center; }
+      .gallery-grid { grid-template-columns: repeat(2, 1fr); }
+      .gallery-item:first-child { grid-column: span 2; grid-row: span 1; }
+      .trust-bar-inner { gap: 24px; }
+      .nav { display: none; }
+      .header-inner { height: 60px; }
+      .hero { margin-top: 60px; min-height: 80vh; }
+      .section { padding: 64px 0; }
+      .about-stats { grid-template-columns: repeat(3, 1fr); gap: 12px; }
+      .stat-number { font-size: 1.8rem; }
+    }
+
+    .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-up.visible { opacity: 1; transform: translateY(0); }
+  </style>
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="header-inner">
+      <span class="logo-text">Consos Properties</span>
+      <div class="header-right">
+        <ul class="nav">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="mailto:joey@consosproperties.com" class="header-cta">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Get In Touch
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <div class="hero-eyebrow">Bay Area Real Estate - 20+ Years</div>
+      <h1>Real Estate Investment & Development</h1>
+      <p class="hero-sub">Consos Properties creates high-quality, innovative real estate projects that meet the diverse needs of clients and communities throughout California. From rehabs to new construction, we deliver exceptional results.</p>
+      <div class="hero-btns">
+        <a href="mailto:joey@consosproperties.com" class="btn btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          Contact Us
+        </a>
+        <a href="#services" class="btn btn-outline">Our Work</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="trust-bar">
+    <div class="container">
+      <div class="trust-bar-inner">
+        <div class="trust-item">
+          <div class="trust-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg></div>
+          <span class="trust-text">20+ Years Experience</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><svg viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
+          <span class="trust-text">Full-Cycle Development</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><svg viewBox="0 0 24 24"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+          <span class="trust-text">Thorough Due Diligence</span>
+        </div>
+        <div class="trust-item">
+          <div class="trust-icon"><svg viewBox="0 0 24 24"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg></div>
+          <span class="trust-text">California Statewide</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="section section-alt" id="services">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-eyebrow">What We Do</div>
+        <h2>Strategic Real Estate Development</h2>
+        <p>Our team delivers exceptional results through a combination of thorough due diligence, strategic planning, and precise field execution.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card fade-up">
+          <div class="service-card-img" style="background-image: url('https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/1715274273578-1P3899L53CEKHSLRIWP6/MLS+1666+Barnett+Cir+Pleasant+Hill004.jpg')"></div>
+          <div class="service-card-body">
+            <h3>Rehabs & Renovations</h3>
+            <p>We transform underperforming properties into modern, functional spaces that people want to live in. Our featured rehabs showcase our ability to add significant value through strategic renovation.</p>
+          </div>
+        </div>
+        <div class="service-card fade-up">
+          <div class="service-card-img" style="background-image: url('https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/1715641455152-P9L0I776QDZJ5M56EK0S/60th.JPG')"></div>
+          <div class="service-card-body">
+            <h3>Entitlements & Planning</h3>
+            <p>Navigating the complex entitlements process in California requires deep local knowledge and persistence. We handle zoning, permitting, and planning approvals to unlock property potential.</p>
+          </div>
+        </div>
+        <div class="service-card fade-up">
+          <div class="service-card-img" style="background-image: url('https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/1715641522376-WWKATILXKXY5W6KMABBN/Diablo.JPG')"></div>
+          <div class="service-card-body">
+            <h3>New Construction</h3>
+            <p>Ground-up development of residential and mixed-use properties. We identify opportunities, secure land, and build from the ground up - creating modern homes and spaces that define neighborhoods.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image fade-up">
+          <img src="https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/8fbf991a-0806-4cff-8412-07582046c392/MLS+1666+Barnett+Cir+Pleasant+Hill004.jpg" alt="Consos Properties team" />
+        </div>
+        <div class="about-content fade-up">
+          <div class="section-eyebrow">About Consos Properties</div>
+          <h2>Family-Led, Results-Driven</h2>
+          <p>Consos Properties is a real estate investment and development company with over 20 years of industry experience. Led by brothers Peter and Joey, we are dedicated to creating high-quality, innovative projects that meet the diverse needs of our clients and communities throughout California.</p>
+          <p>Our portfolio showcases a range of successful projects that demonstrate our expertise in creating modern, functional spaces that people want to live in. Whether you are a realtor, lender, or investor, we welcome the conversation.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <div class="stat-number">20+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">50+</div>
+              <div class="stat-label">Projects Completed</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">CA</div>
+              <div class="stat-label">Statewide Reach</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="gallery">
+    <div class="container">
+      <div class="section-header fade-up">
+        <div class="section-eyebrow">Our Work</div>
+        <h2>Featured Projects Across California</h2>
+        <p>From Bay Area rehabs to new construction throughout the state, our portfolio speaks to our range and quality of execution.</p>
+      </div>
+      <div class="gallery-grid fade-up">
+        <div class="gallery-item"><img src="https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/1715274273578-1P3899L53CEKHSLRIWP6/MLS+1666+Barnett+Cir+Pleasant+Hill004.jpg" alt="Pleasant Hill rehab" /></div>
+        <div class="gallery-item"><img src="https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/1715641455152-P9L0I776QDZJ5M56EK0S/60th.JPG" alt="Entitlements project" /></div>
+        <div class="gallery-item"><img src="https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/1715641522376-WWKATILXKXY5W6KMABBN/Diablo.JPG" alt="New construction" /></div>
+        <div class="gallery-item"><img src="https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/1715641654700-F7XO7U81WB8PSA2R6TK8/IMG_8894.JPG" alt="Portfolio property" /></div>
+        <div class="gallery-item"><img src="https://images.squarespace-cdn.com/content/v1/663ba5d654f30057e9efacb5/8fbf991a-0806-4cff-8412-07582046c392/MLS+1666+Barnett+Cir+Pleasant+Hill004.jpg" alt="Featured rehab" /></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <div class="cta-content fade-up">
+        <h2>Let's Talk Real Estate</h2>
+        <p>Whether you are a realtor, lender, or investor looking for your next opportunity in California real estate, we would love to connect.</p>
+        <div class="cta-email">
+          <svg viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          <a href="mailto:joey@consosproperties.com">joey@consosproperties.com</a>
+        </div>
+        <a href="mailto:joey@consosproperties.com" class="btn btn-primary">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <span class="footer-logo-text">Consos Properties</span>
+        <ul class="footer-links">
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Consos Properties. All rights reserved. SF Bay Area, California.
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('scroll', () => {
+      document.getElementById('header').classList.toggle('scrolled', window.scrollY > 20);
+    });
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); }});
+    }, { threshold: 0.15 });
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
